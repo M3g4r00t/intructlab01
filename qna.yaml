@@ -1,0 +1,92 @@
+version: 3
+domain: Behavioral Health Care Access and Utilization
+created_by: LA Team
+document_outline: >-
+  Overview of behavioral health care needs and access challenges in Massachusetts.
+  Utilization trends for mental health and substance use disorder services.
+  Discussion on unmet needs for behavioral health care due to cost and other barriers
+
+seed_examples:
+  - context: |-
+      In Massachusetts, the behavioral health care system faces various challenges, 
+      including access and utilization issues. According to the 2021 Massachusetts Health Insurance Survey, 
+      nearly one in 10 residents reported that they or a family member had forgone 
+      behavioral health care due to cost in the past 12 months. The survey also found that residents 
+      in fair or poor health or who had limitations in activities due to a physical, mental, or emotional problem 
+      were more likely to report having visits for behavioral health care, but were also more likely 
+      to report an unmet need for behavioral health care. 
+      The cost of behavioral health care remains a significant affordability barrier 
+      to some residents of the Commonwealth. In 2021, 8.6% of Massachusetts residents reported 
+      that they or someone in their family had forgone behavioral health care that the resident 
+      felt was needed due to cost in the past 12 months. Over one-quarter of residents who reported 
+      that a family member had no health insurance for some or all of the past 12 months 
+      also reported an unmet need for behavioral health care due to cost in their family.
+    
+    questions_and_answers:
+      - question: What percentage of Massachusetts residents reported forgoing behavioral health care due to cost in 2021?
+        answer: >-
+          According to the 2021 Massachusetts Health Insurance Survey, nearly one in 10 residents (8.6%) reported that they 
+          or a family member had forgone behavioral health care due to cost in the past 12 months.
+      - question: How does the cost of behavioral health care affect residents of different racial and ethnic backgrounds in Massachusetts?
+        answer: >-
+          The burden of affordability was greater for Black residents, residents of other or multiple races, 
+          and Hispanic residents relative to White residents. Over half of Black and Hispanic residents reported 
+          experiencing health care affordability issues in the past 12 months.
+      - question: What percentage of total medical spending was allocated to behavioral health services in Massachusetts in 2022?
+        answer: >-
+          Private commercial spending on behavioral health services represented 7.4% of total medical spending in 2022, 
+          while behavioral health spending accounted for 16.2% of total MassHealth spending and 3.1% 
+          of total Medicare Advantage spending.
+  - context: |-
+      Behavioral health spending represented 7.4% of private commercial health expenditures, 
+      16.2% for MassHealth, and 3.1% for Medicare Advantage in 2022. MassHealth had 
+      the highest percentage of members with a behavioral health diagnosis in 2022 at 26.6%, 
+      followed by commercial at 22.7%, and Medicare Advantage at 14.1%. Mental health represented 
+      a majority of behavioral health diagnoses and spending as compared to substance use disorder.
+    
+    questions_and_answers:  
+      - question: What percentage of private commercial health expenditures was spent on behavioral health services in 2022?
+        answer: >-
+          Behavioral health spending represented 7.4% of private commercial health expenditures in 2022.
+      - question: Which insurance category had the highest percentage of members with a behavioral health diagnosis in 2022?
+        answer: >-
+          MassHealth had the highest percentage of members with a behavioral health diagnosis in 2022, at 26.6%.
+      - question: What proportion of total Medicare Advantage spending was attributed to behavioral health services in 2022?
+        answer: >-
+          Behavioral health services accounted for 3.1% of total Medicare Advantage spending in 2022.   
+
+  - context: |
+      Behavioral health care access and utilization in Massachusetts present significant challenges, 
+      particularly for individuals seeking mental health and substance use disorder (SUD) services. 
+      The demand for these services has increased in recent years, but barriers such as high costs, 
+      provider shortages, and insurance limitations continue to hinder access. 
+      This report explores the trends in behavioral health service utilization, including inpatient 
+      and outpatient care, telehealth adoption, and disparities among different demographic groups.
+      It also examines the impact of affordability issues, insurance coverage gaps, and systemic inefficiencies 
+      that prevent individuals from receiving the necessary care.
+      Additionally, the report discusses efforts to improve behavioral health care access through policy interventions, 
+      funding initiatives, and innovative care models.
+    questions_and_answers:
+      - question: "What are the main challenges in accessing behavioral health care in Massachusetts?"  
+        answer: |  
+          The main challenges include high costs, a shortage of providers, and insurance limitations. 
+          Many individuals face long wait times for appointments, and some services are not covered by insurance, 
+          making it difficult for people to receive necessary mental health and substance use disorder care.  
+      - question: "How has telehealth impacted behavioral health care utilization?"  
+        answer: |  
+          Telehealth has significantly increased access to behavioral health services, particularly 
+          for those in rural areas or those facing transportation barriers. While telehealth adoption has grown, 
+          disparities remain, as not all patients have reliable internet access or feel comfortable 
+          with virtual consultations.  
+      - question: "What efforts are being made to improve access to behavioral health care?"  
+        answer: |  
+          Several policy interventions and funding initiatives aim to improve access, including expanding 
+          insurance coverage for mental health services, increasing provider reimbursement rates, 
+          and developing integrated care models. Additionally, investments in workforce training 
+          and telehealth infrastructure seek to address the shortage of behavioral health professionals.  
+
+document:
+  repo: https://github.com/M3g4r00t/intructlab01
+  commit: 6706e46d7b745b0c7670cada4bb70e63b7789edd
+  patterns:
+    - 2024-Annual-Report.md
